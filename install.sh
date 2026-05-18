@@ -1,9 +1,8 @@
 #!/bin/bash set -x
 cd "$(dirname "$0")"
 if [ "$EUID" -ne 0 ]; then
-    SUDO="sudo"
-else
-    SUDO=""
+    echo "Please run as root: sudo bash install.sh"
+    exit 1
 fi
 
 $SUDO pacman -Sy --noconfirm --needed kitty python python-requests pipewire-pulse
