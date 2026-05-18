@@ -8,6 +8,7 @@ Tested in Kitty and Konsole.
 ## Dependencies
 
 - python
+- python-requests
 - kitty (for image display)
 - pipewire-pulse (for audio)
 
