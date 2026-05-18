@@ -17,7 +17,7 @@ Tested in Kitty and Konsole.
 ```bash
 git clone https://github.com/ViggoRomrakett/uyr.git
 cd uyr
-bash install.sh
+sudo bash install.sh
 ```
 
 ## Usage
